@@ -12,7 +12,9 @@ Linux 기반 manycore 이용시
 터미널에서 해당 모듈과 파일이 있는 공간에서 코드를 실행시키면 됩니다.
 
 > iverilog -o integral_img_tb.vvp integral_img_tb.v
+
 > vvp integral_img_tb.vvp
+
 > gtkwave integral_img_tb.vcd
 
 또한 결과로 -ls 문법을 통해 저장된 Detection 결과를 확인할 수 있습니다.
